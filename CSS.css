@@ -165,7 +165,7 @@
         height: 80px;
     }
 
-    #mobile_menu {
+    #mobile-menu {
         position: absolute;
         top: 20%;
         right: 5%;
@@ -177,22 +177,16 @@
         cursor: pointer;
     }
 
-    #mobile_menu.is_active .bar:nth-child(2) {
+    #mobile-menu.is_active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    #mobile_menu.is_active .bar:nth-child(1) {
+    #mobile-menu.is_active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    #mobile_menu.is_active .bar:nth-child(2) {
+    #mobile-menu.is_active .bar:nth-child(2) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-}
-
-.navbar_links:hover {
-    display: flex;
-    color:#6c3fff;
-    transition: all 0.3s ease;
 }
