@@ -7,11 +7,11 @@
 }
 
 .navbar {
-    background: black;
-    height: 70px;
     display: flex;
-    justify-content: center;
+    height: 80px;
+    background: #131313;
     align-items: center;
+    justify-content: center;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
@@ -21,7 +21,7 @@
 .navbar_container {
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 80px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -30,8 +30,8 @@
 }
 
 #navbar_logo {
-    background-color: orange;
-    background-image: linear-gradient(to top, red 0%, purple 100%);
+    background-color: #fa6a03e9;
+    background-image: linear-gradient(to top, #ff0202 0%, #6c3fff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -55,13 +55,13 @@
 }
 
 .navbar_links {
-    color: #fff;
     display: flex;
+    color: #fff;
     align-items: center;
     justify-content: center;
-    width: 125px;
+    width: 150px;
     text-decoration: none;
-    height: 100%;
+    height: 40%;
 }
 
 .navbar_btn {
@@ -69,61 +69,29 @@
     justify-content: right;
     align-items: right;
     padding: 0 1rem;
-    width: 70%;
+    width: 100%;
 }
 
 .button {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     padding: 10px 20px;
-    height: 100%;
-    width: 25%;
+    text-decoration: none;
     border: none;
     outline: none;
+    height: 100%;
+    width: 40%;
     border-radius: 4px;
-    background: magenta;
-    background: -webkit-linear-gradient(to right, orange,red, purple);
-    background: linear-gradient(to right, orange,red, purple);
-    color: white;
+    background: #6c3fff;
+    background: -webkit-linear-gradient(to right, #ff6a00f7, #ff0000, #c300ff);
+    background: linear-gradient(to right, #ff6a00f7, #ff0000, #c300ff);
+    color: #fff;
     transition: all 0.3s ease;
 }
 
 .navbar_links:hover {
-    color: #8e21fb;
+    display: flex;
+    color:#6c3fff;
     transition: all 0.3s ease;
-}
-
-@media screen and (max-width: 960px){
-    .navbar_container {
-        display: flex;
-        justify-content: space-between;
-        height: 80px;
-        z-index: 1;
-        width: 100%;
-        max-width: 1300px;
-        padding: 0;
-    }
-
-    .navbar_menu {
-        grid-template-columns: auto;
-        margin: 0;
-        width: 100%;
-        position: absolute;
-        /*top: -1000px;*/
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: -1;
-    }
-
-    .navbar_menu.active {
-        background: black;
-        top: 100%;
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: 99;
-        height: 60vh;
-        font-size: 1.6rem;
-    }
 }
