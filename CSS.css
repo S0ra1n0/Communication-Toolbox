@@ -54,7 +54,7 @@
     height: 80px;
 }
 
-.navbar_link {
+.navbar_links {
     color: #fff;
     display: flex;
     align-items: center;
@@ -90,7 +90,7 @@
     transition: all 0.3s ease;
 }
 
-.navbar_link:hover {
+.navbar_links:hover {
     color: #8e21fb;
     transition: all 0.3s ease;
 }
