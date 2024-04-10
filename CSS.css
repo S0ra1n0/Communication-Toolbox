@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth scroll;
+    font-family: 'TT Norms Pro';
 }
 
 .navbar {
     background: #fff;
-    height: 120px;
+    height: 115px;
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -29,22 +30,17 @@
     padding: 0 50px;
 }
 
-#navbar_logo {
-    align-items: bottom;
-    justify-content: bottom;
+#navbar_logo1 {
+    align-items: bottom, left;
+    justify-content: bottom, left;
     display: flex;
-    /*
-    background-color: blueviolet;
-    background-image: linear-gradient(to top, violet, red, orange);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 3rem;
-    */
+}
+
+#navbar_logo2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10%;
 }
 
 .navbar_menu {
@@ -115,19 +111,19 @@ footer {
     background: #002D74;
     /*background: linear-gradient(90deg, rgba(0,221,223,1) 0%, rgba(1,255,160,1) 50%, rgba(191,255,12,1) 100%);*/
     display: flex;
-    justify-content: left;
+    justify-content: center;
     width: 100%;
     position: sticky;
+    align-items: right;
 }
 
 .head {
-    color: #ED1B30;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    width: 100px;
-    text-decoration: none;
-    height: 100%;
+    color: #fff;
+    font-size: 2rem;
+    font: 'TT Norms Pro', sans-serif;
+    font-style: italic;
+    justify-content: right;
+    align-items: right;
 }
 
 .start {
@@ -140,7 +136,7 @@ footer {
 .im1 {
     opacity: 1;
     display: flex;
-    width: 70%;
+    width: 75%;
     height: 100%;
     align-content: center;
     justify-content: center;
