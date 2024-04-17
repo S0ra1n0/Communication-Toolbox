@@ -10,7 +10,7 @@
     background: #fff;
     height: 115px;
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.15em;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -60,9 +60,15 @@
     align-items: center;
     display: flex;
     text-decoration: none;
-    width: 125px;
+    width: 160px;
     height: 40%;
     font-family: 'TT Norms Pro', sans-serif;
+}
+
+#home_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 li::marker {
@@ -71,12 +77,13 @@ li::marker {
 
 .navbar_links:hover {
     color: rgb(170, 0, 255);
-    transition: all 0.3 ease;
+    background-color: rgb(207, 207, 207);
+    transition: all 0.5 ease;
 }
 
 .footer_links:hover {
     color: rgb(170, 0, 255);
-    transition: all 0.3 ease;
+    transition: all 0.5 ease;
 }
 
 footer {
